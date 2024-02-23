@@ -45,3 +45,5 @@ The MongoDB connection string is configured in the NestJS application. By defaul
     mongodb://mongodb:27017/db_coffee
 
 This assumes that the MongoDB container is named mongodb and exposes port 27017.
+
+**Note**: The image is automatically created and pushed to the Docker Hub repository when you push the code to the GitHub repository.
