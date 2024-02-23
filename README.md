@@ -28,7 +28,7 @@ Follow these steps to run the application locally using Docker:
    ```bash
     docker-compose up --build
 
-Once the containers are up and running, you can access the NestJS application at http://localhost:3000.
+Once the containers are up and running, you can access the NestJS application at http://localhost:3000/api.
 
 Project Structure
 The project structure is as follows:
