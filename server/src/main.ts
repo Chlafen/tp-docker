@@ -7,7 +7,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Coffee app')
-    .setDescription('The coffee API')
+    .setDescription('The coffee API documentation')
     .setVersion('1.0')
     .addTag('coffee')
     .build();
