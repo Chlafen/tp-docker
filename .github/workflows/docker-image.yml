@@ -26,5 +26,5 @@ jobs:
         docker-compose build 
     - name: Push Docker Images
       run: |
-        docker-compose push medaminebouchnak/tp-docker-nestjs
+        docker-compose push
     
