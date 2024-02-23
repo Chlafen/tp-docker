@@ -12,6 +12,9 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
+      args:
+        - DOCKER_IMAGE_NAME=medaminebouchnak/tp-docker-nestjs
+    image: medaminebouchnak/tp-docker-nestjs
     container_name: coffee-1
     ports:
       - "3000:3002"
@@ -20,4 +23,3 @@ services:
 
 volumes:
   mongodb_data:
-   
