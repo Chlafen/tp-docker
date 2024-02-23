@@ -14,7 +14,7 @@ services:
       dockerfile: Dockerfile
     container_name: coffee-1
     ports:
-      - "3000:3000"
+      - "3000:3002"
     depends_on:
       - mongodb
 
